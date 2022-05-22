@@ -1,0 +1,52 @@
+body { background: #36393f; color: white; font-family: 'Open Sans', sans-serif; margin: 25px; }
+
+main { margin: 0 25px; }
+
+header { text-align: center; margin: 25px; }
+header > div, header > p { text-align: left; }
+header > a > img { margin: 25px 0; width: 100%; max-width: 900px; }
+header > h1 > a { text-decoration: none; }
+header > h1 > a:hover { opacity: 80%; }
+
+h1, h2, h3, ul, section { margin: 0px; }
+
+h2 { margin-top: 30px; }
+
+a, .nav span { color: white; }
+
+em, h1 > span, li > a { color: #c3cad4; }
+
+h3 { margin-top: 10px; }
+
+.nav { color: white; font-size: 2em; text-align: center; }
+.nav a { text-decoration: none; background: #8a8e94; border-radius: 10px; width: 70px; color: #36393f; display: inline-block; }
+
+#reader { margin: 25px 0; text-align: center; }
+#reader > img { width: 100%; max-width: 1000px; margin: 10px 0; }
+
+.alert { margin: 25px; padding: 10px; color: white; border: 1px solid white; border-radius: 10px; text-align: left; display: flex; }
+.alert.flat { display: block; }
+.alert a { color: #c3cad4; }
+.alert h2 { margin-top: 0; }
+.alert img { width: 60px; max-height: 120px; object-fit: cover; border-radius: 10px; margin-right: 10px; }
+.alert p { font-size: 0.9em; margin: 0; }
+
+#index { margin: 10px; padding: 0; }
+#index li { display: flex; justify-content: space-between; padding: 10px; align-items: center; }
+#index li:nth-of-type(even) { background: #272727; border-radius: 10px; }
+#index li:nth-of-type(even) > a { color: #93b4c3; }
+#index li > span.right { display: flex; flex-direction: row; text-align: right; font-size: 0.75em; flex-wrap: wrap; justify-content: flex-end; }
+#index li > span.right a { margin: 5px; }
+#index li > span.right a:first-of-type { border-right: 1px solid white; padding-right: 10px; }
+#index li > .filler { flex-grow: 1; }
+
+.center { text-align: center; }
+
+.volume-nav { display: inline-flex; flex-wrap: wrap; align-items: center; text-align: center; }
+.volume-nav > a { text-decoration: none; border-radius: 5px; background: #63818c; padding: 0.2em 0.4em; border: 1px solid black; }
+.volume-nav > a:nth-of-type(2) { margin: 0 0.5em; }
+.volume-nav > a:hover { background: #252525; }
+
+@media screen and (max-width: 1000px) { body { margin: 0px 0px 40px 0px; }
+  main { margin: 0 10px; }
+  h2 { margin-left: 10px; } }

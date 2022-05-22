@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-98897990-2');
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+         if (location.hash) {
+            let target = location.hash;
+            let top = document.querySelector(target).offsetTop;
+            console.info(top);
+            window.scrollTo({ top })
+         }
+      });
+    </script>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

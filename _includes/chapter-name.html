@@ -1,0 +1,8 @@
+{% capture chapterName %}Ch. {{ include.chapter[0] }}{% endcapture %}
+{% if chapterName contains "-" %}
+  {% assign volumeAndChapter = include.chapter[0] | split: "-" %}
+  {% capture chapterName %}Vol. {{ volumeAndChapter[0] }} Ch. {{ volumeAndChapter[1] }}{% endcapture %}
+{% elsif page.nextVolume or page.prevVolume %}
+  {% capture chapterName %}Vol. {{ page.volumeNumber }} Ch. {{ volumeAndChapter[1] }}{% endcapture %}
+{% endif %}
+{{ chapterName }} - {{ include.chapter[1].title }}

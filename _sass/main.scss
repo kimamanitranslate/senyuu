@@ -56,32 +56,6 @@ h3 {
   margin-top: 10px;
 }
 
-.nav {
-  color: $fontColor;
-  font-size: 2em;
-  text-align: center;
-
-  a {
-    text-decoration: none;
-    background: #8a8e94;
-    border-radius: 10px;
-    width: 70px;
-    color: $backgroundColor;
-    display: inline-block;
-  }
-}
- 
-#reader {
-  margin: 25px 0;
-  text-align: center;
-
-  > img {
-      width: 100%;
-      max-width: 1000px;
-      margin: 10px 0;
-  }
-}
-
 .alert {
   margin: 25px;
   padding: 10px;
@@ -194,9 +168,5 @@ h3 {
 
   main {
     margin: 0 10px;
-  }
-
-  h2 {
-    margin-left: 10px;
   }
 }

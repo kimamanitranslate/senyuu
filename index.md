@@ -13,7 +13,7 @@ title: "Read Senyuu. Online!"
 </header>
 
 <main>
-<h2>Senyuu Webcomic</h2>
+<h2 id="web">Senyuu Webcomic</h2>
 <em>The main story, where everything began. The majority of Senyuu WEB is a full-colour video webcomic paired with BGM and everything, but starting from F5, it becomes a regular B&W paneled manga. For the best experience, read these scanlations along with the raws!</em>
 <h3>Read Online</h3>
 <ul class="index">
@@ -24,21 +24,21 @@ title: "Read Senyuu. Online!"
   <li><a href="{{ site.baseurl }}/chapters/plus">Senyuu+</a> (Disconnected extra stories)</li>
   <li><a href="{{ site.baseurl }}/chapters/f5">Senyuu F5</a> (Season 5)</li>
 </ul>
-<h2>Senyuu: Main Quest</h2>
+<h2 id="mq">Senyuu: Main Quest</h2>
 <em>An official redraw of Senyuu Season 1 and 2 as a regular B&W paneled manga! It's mostly the same as the webcomic version, but occasionally has some expansions and extra stories.</em>
 <h3>Read Online</h3>
 <ul class="index">
   <li><a href="{{ site.baseurl }}/chapters/mq1">Main Quest: Part 1</a></li>
   <li><a href="{{ site.baseurl }}/chapters/mq2">Main Quest: Part 2</a></li>
 </ul>
-<h2>Senyuu SQ</h2>
+<h2 id="sq">Senyuu SQ</h2>
 <em>An alternate universe of Senyuu WEB that was serialized in the Jump SQ magazine. The idea is that it's a universe that focuses more on the jokes, with fewer serious developments.</em>
 <h3>Read Online</h3>
 <ul class="index">
   <li><a href="{{ site.baseurl }}/chapters/sq">Senyuu SQ</a></li>
   <li>See also: The <em>SQ Senyuu!</em> chapters posted on the <a href="{{ site.baseurl }}/chapters/haruhara-channel">Haruhara Robinson channel</a></li>
 </ul>
-<h2>Senyuu Extras</h2>
+<h2 id="channel">Senyuu Extras</h2>
 <em>Various extra stories, as posted by Haruhara on his channel, his Twitter, and/or released as doujinshi. Please note that these stories are <strong>non-canon</strong> to Senyuu WEB unless otherwise stated or used in canon.</em>
 <h3>Read Online</h3>
 <ul class="index">

@@ -2,8 +2,8 @@
 layout: default
 ---
 <header>
-  <h1><a href="{{ absolute_url }}/">{{ page.title }}</a></h1>
-  <small><a href="{{ absolute_url }}/">Back to the main page</a></small></br>
+  <h1><a href="{{ site.baseurl }}/">{{ page.title }}</a></h1>
+  <small><a href="{{ site.baseurl }}/">Back to the main page</a></small></br>
   <a rel="noopener noreferrer" target="_blank" href="{{ page.rawURL }}">
     <img src="{{ page.banner }}" alt="{{ page.title }} banner">
   </a>
@@ -12,11 +12,11 @@ layout: default
     <div class="center">
       <div class="volume-nav">
         {% if page.prevVolume %}
-        <a class="prev-volume" href="{{ absolute_url }}/chapters/{{ page.prevVolume }}">Volume ➡</a>
+        <a class="prev-volume" href="{{ site.baseurl }}/chapters/{{ page.prevVolume }}/">Volume ➡</a>
         {% endif %}
-        <a href="{{ absolute_url }}/{{ page.indexURL }}">Index</a>
+        <a href="{{ site.baseurl }}/{{ page.indexURL | senyuu }}">Index</a>
         {% if page.nextVolume %}
-        <a class="next-volume" href="{{ absolute_url }}/chapters/{{ page.nextVolume }}">Volume ➡</a>
+        <a class="next-volume" href="{{ site.baseurl }}/chapters/{{ page.nextVolume }}/">Volume ➡</a>
         {% endif %}
       </div>
     </div>

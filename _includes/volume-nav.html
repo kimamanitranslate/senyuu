@@ -1,7 +1,7 @@
 <div class="center">
   <div class="volume-nav">
     {% if page.prevVolume %}
-    <a class="prev-volume" href="{{ site.baseurl }}/{{ include.pageType }}/{{ page.prevVolume }}/">⬅ Volume</a>
+    <a class="prev-volume" href="{{ site.baseurl }}/{{ include.pageType }}/{{ page.prevVolume }}">⬅ Volume</a>
     {% endif %}
     {% if page.path contains "chapters" %} 
       <a href="{{ site.baseurl }}/#{{ page.indexType }}">Index</a>
@@ -9,7 +9,7 @@
       <a href="{{ site.baseurl }}/chapters/{{ page.volumeName }}">Index</a>
     {% endif %}
     {% if page.nextVolume %}
-    <a class="next-volume" href="{{ site.baseurl }}/{{ include.pageType }}/{{ page.nextVolume }}/">Volume ➡</a>
+    <a class="next-volume" href="{{ site.baseurl }}/{{ include.pageType }}/{{ page.nextVolume }}">Volume ➡</a>
     {% endif %}
   </div>
 </div>
